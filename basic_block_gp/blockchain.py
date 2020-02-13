@@ -119,6 +119,7 @@ def mine():
 
     response = {
         # TODO: Send a JSON response with the new block
+        "message": "Hello, World!"
     }
 
     return jsonify(response), 200
